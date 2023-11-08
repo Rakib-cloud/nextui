@@ -1,0 +1,381 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. John Smith",
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "speciality": "Cardiologist",
+      "fee": 150,
+      "rating": 4.8,
+      "patients": 48,
+      "surgery": 40,
+      "reviewer": 15,
+      "degree": "MBBS at Rangpur, FCPS at South Korea",
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. John Smith is a highly experienced cardiologist with over 15 years of practice. He specializes in treating various heart conditions and is known for his compassionate approach towards his patients."
+    },
+    {
+      "id": 2,
+      "name": "Dr. Sarah Johnson",
+      "speciality": "Pediatrician",
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "fee": 120,
+      "rating": 4.9,
+      "patients": 50,
+      "surgery": 30,
+      "reviewer": 20,
+      "degree": "MD, Pediatrics",
+      "schedule": "Tuesday, Thursday",
+      "description": "Dr. Sarah Johnson is a dedicated pediatrician with a passion for ensuring the health and well-being of children. She provides personalized care and is loved by both parents and kids."
+    },
+    {
+      "id": 3,
+      "name": "Dr. Michael Davis",
+      "speciality": "Dermatologist",
+      "fee": 180,
+      "rating": 4.7,
+      "patients": 68,
+      "surgery": 45,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "reviewer": 33,
+      "degree": "MD, Dermatology",
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. Michael Davis is a renowned dermatologist known for his expertise in diagnosing and treating skin conditions. He stays updated with the latest advancements in dermatology."
+    },
+    {
+      "id": 4,
+      "name": "Dr. Jennifer Lee",
+      "speciality": "Gynecologist",
+      "fee": 160,
+      "rating": 4.9,
+      "patients": 348,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "surgery": 540,
+      "reviewer": 115,
+      "degree": "MD, Obstetrics & Gynecology",
+      "schedule": "Tuesday, Thursday",
+      "description": "Dr. Jennifer Lee is a compassionate gynecologist providing comprehensive care to women of all ages. She is known for her expertise in women's health and wellness."
+    },
+    {
+      "id": 5,
+      "name": "Dr. Robert Turner",
+      "speciality": "Orthopedic Surgeon",
+      "fee": 200,
+      "rating": 4.6,
+      "patients": 489,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "surgery": 400,
+      "reviewer": 159,
+      "degree": "MD, Orthopedic Surgery",
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. Robert Turner is a skilled orthopedic surgeon specializing in joint replacements and sports injuries. He is committed to helping patients regain mobility and live pain-free lives."
+    },
+    {
+      "id": 6,
+      "name": "Dr. Laura Martinez",
+      "speciality": "Psychiatrist",
+      "fee": 190,
+      "rating": 4.8,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "patients": 486,
+      "surgery": 406,
+      "reviewer": 156,
+      "degree": "MD, Psychiatry",
+      "schedule": "Tuesday, Thursday",
+      "description": "Dr. Laura Martinez is a compassionate psychiatrist with extensive experience in mental health care. She provides personalized treatment plans to help patients achieve mental well-being."
+    },
+    {
+      "id": 7,
+      "name": "Dr. David Williams",
+      "speciality": "ENT Specialist",
+      "fee": 170,
+      "rating": 4.7,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "patients": 888,
+      "surgery": 405,
+      "reviewer": 1505,
+      "degree": "MD, Otolaryngology",
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. David Williams is an accomplished ENT specialist known for his expertise in diagnosing and treating ear, nose, and throat disorders. He is dedicated to providing effective and compassionate care."
+    },
+    {
+      "id": 8,
+      "name": "Dr. Emily Rodriguez",
+      "speciality": "Ophthalmologist",
+      "fee": 180,
+      "rating": 4.9,
+      "patients": 4556,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "surgery": 4044,
+      "reviewer": 1544,
+      "degree": "MD, Ophthalmology",
+      "schedule": "Tuesday, Thursday",
+      "description": "Dr. Emily Rodriguez is a skilled ophthalmologist specializing in eye care and vision correction. She is committed to preserving and improving her patients' vision."
+    },
+    {
+      "id": 9,
+      "name": "Dr. Mark Taylor",
+      "speciality": "Dentist",
+      "fee": 120,
+      "rating": 4.8,
+      "patients": 4888,
+      "surgery": 4067,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "reviewer": 1565,
+      "degree": "DDS, Dentistry",
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. Mark Taylor is a highly skilled dentist known for his gentle and caring approach to dental care. He offers a wide range of dental services to patients of all ages."
+    },
+    {
+      "id": 10,
+      "name": "Dr. Lisa Anderson",
+      "speciality": "Neurologist",
+      "fee": 220,
+      "rating": 4.9,
+      "patients": 4908,
+      "surgery": 4670,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "reviewer": 155,
+      "degree": "MD, Neurology",
+      "schedule": "Tuesday, Thursday",
+      "description": "Dr. Lisa Anderson is a leading neurologist specializing in the diagnosis and treatment of neurological disorders. She is dedicated to improving the lives of her patients through advanced neurological care."
+    },
+    {
+      "id": 11,
+      "name": "Dr. James Mitchell",
+      "speciality": "Urologist",
+      "fee": 190,
+      "rating": 4.7,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "patients": 567,
+      "surgery": 40,
+      "reviewer": 15,
+      "degree": "MD, Urology",
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. James Mitchell is a skilled urologist providing expert care for urological conditions. He is committed to helping patients achieve optimal urological health."
+    },
+    {
+      "id": 12,
+      "name": "Dr. Linda Baker",
+      "speciality": "Rheumatologist",
+      "fee": 200,
+      "rating": 4.8,
+      "patients": 48,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "surgery": 40,
+      "reviewer": 15,
+      "degree": "MD, Rheumatology",
+      "schedule": "Tuesday, Thursday",
+      "description": "Dr. Linda Baker is a dedicated rheumatologist with a focus on diagnosing and treating autoimmune and musculoskeletal disorders. She provides personalized care to improve her patients' quality of life."
+    },
+    {
+      "id": 13,
+      "name": "Dr. Paul Turner",
+      "speciality": "Endocrinologist",
+      "fee": 210,
+      "rating": 4.9,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "patients": 4898,
+      "surgery": 4550,
+      "reviewer": 1566,
+      "degree": "MD, Endocrinology",
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. Paul Turner is an experienced endocrinologist specializing in the treatment of hormonal disorders. He is committed to helping patients achieve hormonal balance and overall well-being."
+    },
+    {
+      "id": 14,
+      "name": "Dr. Mary Evans",
+      "speciality": "Gastroenterologist",
+      "fee": 190,
+      "rating": 4.7,
+      "patients": 48,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      "surgery": 40,
+      "reviewer": 15,
+      "degree": "MD, Gastroenterology",
+      "schedule": "Tuesday, Thursday",
+      "description": "Dr. Mary Evans is a highly skilled gastroenterologist known for her expertise in diagnosing and treating digestive disorders. She is dedicated to providing comprehensive gastrointestinal care."
+    },
+    {
+      "id": 15,
+      "name": "Dr. William Davis",
+      "speciality": "Oncologist",
+      "fee": 230,
+      "rating": 4.8,
+      "patients": 4844,
+      "surgery": 404,
+      "reviewer": 1588,
+      "img": "https://t4.ftcdn.net/jpg/02/60/04/09/360_F_260040900_oO6YW1sHTnKxby4GcjCvtypUCWjnQRg5.jpg",
+      
+      "schedule": "Monday, Wednesday, Friday",
+      "description": "Dr. William Davis is a compassionate oncologist specializing in the treatment of cancer. He is committed to providing the highest quality of care to cancer patients and their families."
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "serviceName": "Cardiology",
+      "availableDoctorsCount": 5
+    },
+    {
+      "id": 2,
+      "serviceName": "Pediatrics",
+      "availableDoctorsCount": 4
+    },
+    {
+      "id": 3,
+      "serviceName": "Dermatology",
+      "availableDoctorsCount": 3
+    },
+    {
+      "id": 4,
+      "serviceName": "Gynecology",
+      "availableDoctorsCount": 2
+    },
+    {
+      "id": 5,
+      "serviceName": "Orthopedics",
+      "availableDoctorsCount": 6
+    },
+    {
+      "id": 6,
+      "serviceName": "Psychiatry",
+      "availableDoctorsCount": 3
+    },
+    {
+      "id": 7,
+      "serviceName": "ENT",
+      "availableDoctorsCount": 2
+    },
+    {
+      "id": 8,
+      "serviceName": "Ophthalmology",
+      "availableDoctorsCount": 3
+    },
+    {
+      "id": 9,
+      "serviceName": "Dentistry",
+      "availableDoctorsCount": 4
+    },
+    {
+      "id": 10,
+      "serviceName": "Neurology",
+      "availableDoctorsCount": 3
+    }
+  ],
+  "features": [
+    {
+      "id": 1,
+      "title": "Advanced Technology",
+      "description": "Equipped with state-of-the-art medical technology, ensuring accurate diagnoses and effective treatments."
+    },
+    {
+      "id": 2,
+      "title": "Expert Medical Staff",
+      "description": "Our hospital boasts a team of highly skilled and experienced healthcare professionals dedicated to your well-being."
+    },
+    {
+      "id": 3,
+      "title": "Comprehensive Services",
+      "description": "From primary care to specialized treatments, we offer a wide range of medical services to meet your needs."
+    },
+    {
+      "id": 4,
+      "title": "Patient-Centered Care",
+      "description": "We prioritize your comfort and well-being, providing personalized care tailored to your unique needs."
+    },
+    {
+      "id": 5,
+      "title": "Emergency Services",
+      "description": "Our 24/7 emergency department is equipped to handle urgent medical situations with efficiency and compassion."
+    },
+    {
+      "id": 6,
+      "title": "Comfortable Facilities",
+      "description": "Our modern and welcoming facilities are designed to provide a comfortable and healing environment for all patients."
+    },
+    {
+      "id": 7,
+      "title": "Collaborative Approach",
+      "description": "Our healthcare team works together to ensure seamless and coordinated care for every patient."
+    },
+    {
+      "id": 8,
+      "title": "Community Outreach",
+      "description": "We are actively involved in our community, promoting health and wellness through various outreach programs."
+    },
+    {
+      "id": 9,
+      "title": "Patient Education",
+      "description": "We believe in empowering patients with knowledge about their health, enabling them to make informed decisions."
+    },
+    {
+      "id": 10,
+      "title": "Quality Assurance",
+      "description": "We maintain high standards of quality and safety in all aspects of patient care and hospital operations."
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Why constantly seeking approval is bad for your relationship",
+      "author": "Susan Krauses Aulbrone",
+      "time": "3 days ago",
+      "img": "https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?cs=srgb&dl=pexels-judit-peter-1766604.jpg&fm=jpg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur doloremque dolores. Natuia delectus voluptas quis quia tempore. Consequatur quam, voluptatibus dignissimos a"
+    },
+    {
+      "id": 2,
+      "title": "Why constantly seeking approval is bad for your relationship",
+      "author": "Susan Krauses Aulbrone",
+      "time": "3 days ago",
+      "img": "https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?cs=srgb&dl=pexels-judit-peter-1766604.jpg&fm=jpg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur doloremque dolores. Natuia delectus voluptas quis quia tempore. Consequatur quam, voluptatibus dignissimos a"
+    },
+    {
+      "id": 3,
+      "title": "Why constantly seeking approval is bad for your relationship",
+      "author": "Susan Krauses Aulbrone",
+      "time": "3 days ago",
+      "img": "https://images.pexels.com/photos/1766604/pexels-photo-1766604.jpeg?cs=srgb&dl=pexels-judit-peter-1766604.jpg&fm=jpg",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus pariatur doloremque dolores. Natuia delectus voluptas quis quia tempore. Consequatur quam, voluptatibus dignissimos a"
+    }
+  ],
+  "profile": {
+    "personalInfo": {
+      "name": "Rakibul Islam",
+      "email": "rakibcloud@gmail.com",
+      "phone": "019xxxxxxx20"
+    }
+  },
+  "appointments": [
+    {
+      "date": "2023-10-28",
+      "name": "sdf",
+      "phone": "000000",
+      "problems": "fffffffffffffff",
+      "id": 1
+    },
+    {
+      "date": "2023-10-28",
+      "name": "Rakibul islam",
+      "phone": "01768726911",
+      "problems": "Bad colds",
+      "id": 2
+    },
+    {
+      "date": "2023-10-28",
+      "name": "Rakibul islam",
+      "phone": "01768726911",
+      "problems": "Bad colds",
+      "id": 3
+    },
+    {
+      "date": "2023-10-28",
+      "name": "Rakibul islam",
+      "phone": "01768726911",
+      "problems": "Bad colds",
+      "id": 4
+    }
+  ]
+}
