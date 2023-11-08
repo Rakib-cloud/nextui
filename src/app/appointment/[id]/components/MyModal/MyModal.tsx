@@ -12,13 +12,16 @@ import {
 } from "@nextui-org/react";
 import { Textarea } from "@nextui-org/react";
 import { dataPost } from "@/app/utils/service";
+
+import Confetti from 'react-confetti'
+import ConfettiWrapper from "@/app/utils/confittiwrap";
 export default function MyModal() {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [date, setDate] = useState<string>("");
   const [name, setName] = useState<string>("");
   const [phone, setPhone] = useState<string>("");
   const [problems, setProblems] = useState<string>("");
-
+  const [isPostSuccessful, setIsPostSuccessful] = useState(false);
   const data = {
     date,
     name,
@@ -75,6 +78,9 @@ export default function MyModal() {
                     onChange={(e) => setProblems(e.target.value)}
                   />
                 </div>
+                {
+                  isPostSuccessful && <ConfettiWrapper width={200} height={150} />
+                }
               </ModalBody>
               <ModalFooter>
                 <Button color="danger" variant="light" onPress={onClose}>
@@ -84,7 +90,9 @@ export default function MyModal() {
                   color="primary"
                   onClick={() => {
                     dataPost("appointments", data);
-                    onClose();
+                    // onClose();
+                    setIsPostSuccessful(true);
+
                   }}
                 >
                   Book

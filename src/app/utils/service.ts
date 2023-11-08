@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { baseUrl } from "./helper";
 
 
+
+
 export function inputHandler(
   e: React.ChangeEvent<HTMLInputElement>,
   getter: any,
@@ -67,6 +69,7 @@ export async function dataPost(endpoint: string, data: any) {
       });
       
       if (res.ok) {
+        
         window.alert('booking successfully')
       }else{
         notFound();
